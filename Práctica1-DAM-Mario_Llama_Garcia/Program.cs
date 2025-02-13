@@ -13,12 +13,17 @@ namespace Práctica1_DAM_Mario_Llama_Garcia
     internal class Ejemplo1
     {
         /// <summary>
+         /// Es el numero
+        /// </summary>
+        public int numero;
+        /// <summary>
+        /// Es un texto
+        /// </summary>
+        public String texto;
+        /// <summary>
         /// Este constructo iguala numero a n
         /// </summary>
         /// <param name="n"> n es el valor para numero</param>
-        public int numero;
-        public String texto;
-
         public Ejemplo1(int n)
         {
             this.Funcion3();
